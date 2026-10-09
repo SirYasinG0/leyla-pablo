@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Leyla &amp; Pablo — 09.01.2027</title>
+  <meta name="description" content="Leyla y Pablo se casan el 9 de enero de 2027 en Imbabura, Ecuador.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <nav class="nav" aria-label="Menú / Menu">
+    <ul>
+      <li><a href="#inicio" data-i18n="nav.home">Home</a></li>
+      <li><a href="#detalles" data-i18n="nav.wedding">Boda</a></li>
+      <li><a href="#hoteles" data-i18n="nav.hotels">Hoteles</a></li>
+      <li><a href="#turismo" data-i18n="nav.tour">Lugares Turísticos</a></li>
+      <li><a href="#faq" data-i18n="nav.faq">FAQ'S</a></li>
+      <li><a href="#restaurantes" data-i18n="nav.food">Restaurantes</a></li>
+      <li><a href="#regalos" data-i18n="nav.gifts">Regalos</a></li>
+    </ul>
+    <div class="lang" role="group" aria-label="Idioma / Language">
+      <button type="button" data-lang="es" aria-pressed="true">ES</button>
+      <button type="button" data-lang="en" aria-pressed="false">EN</button>
+    </div>
+  </nav>
+
+  <header class="hero" id="inicio">
+    <div class="wash wash-a" aria-hidden="true"></div>
+    <div class="wash wash-b" aria-hidden="true"></div>
+    <div class="wash wash-c" aria-hidden="true"></div>
+
+    <div class="hero-inner">
+      <img src="img/pareja.jpg" alt="Leyla y Pablo" class="hero-photo">
+      <p class="hero-intro" data-i18n="hero.intro">Con gran alegría, los invitamos a celebrar este día tan especial con nosotros, rodeados de las personas que más amamos.</p>
+
+      <div class="names-block">
+        <p class="hero-kicker" data-i18n="hero.kicker">Nos casamos</p>
+        <h1 class="names">Leyla <span class="amp">&amp;</span> Pablo</h1>
+      </div>
+
+      <div class="date-frame" aria-label="09 . 01 . 2027">
+        <span>09</span><i></i><span>01</span><i></i><span>2027</span>
+      </div>
+
+      <p class="hero-place" data-i18n="hero.place">Atuntaqui, Imbabura, Ecuador</p>
+
+      <div class="countdown" id="countdown" aria-live="off">
+        <div><b id="cd-days">--</b><small data-i18n="cd.days">Días</small></div>
+        <div><b id="cd-hours">--</b><small data-i18n="cd.hours">Horas</small></div>
+        <div><b id="cd-mins">--</b><small data-i18n="cd.mins">Minutos</small></div>
+        <div><b id="cd-secs">--</b><small data-i18n="cd.secs">Segundos</small></div>
+      </div>
+      <p class="cd-done" id="cd-done" hidden data-i18n="cd.done">¡Hoy es el día!</p>
+    </div>
+  </header>
+
+  <main>
+    <section class="section" id="historia">
+      <h2 data-i18n="story.title">Nuestra historia</h2>
+      <div class="rule" aria-hidden="true"></div>
+      <p data-i18n="story.p1">Aquí va el primer párrafo de su historia: cómo se conocieron, dónde y qué los unió.</p>
+      <p data-i18n="story.p2">Aquí el segundo párrafo: el momento de la propuesta y lo que sueñan para esta nueva etapa.</p>
+    </section>
+
+    <section class="section alt" id="detalles">
+      <h2 data-i18n="event.title">Cuándo y dónde</h2>
+      <div class="rule" aria-hidden="true"></div>
+      <div class="cards event">
+        <article class="frame">
+          <h3 data-i18n="event.dateLabel">Fecha</h3>
+          <p data-i18n="event.date">Sábado, 9 de enero de 2027</p>
+        </article>
+        <article class="frame">
+          <h3 data-i18n="event.timeLabel">Hora</h3>
+          <p data-i18n="event.time">3:00 P.M. (15:00), hora de Ecuador</p>
+        </article>
+        <article class="frame">
+          <h3 data-i18n="event.cerLabel">Ceremonia</h3>
+          <p class="venue">Iglesia de La Dolorosa</p>
+          <p data-i18n="event.cerAddr">Calle 10 de Agosto (frente al Parque San Francisco), Cotacachi, Imbabura</p>
+          <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=Iglesia+de+La+Dolorosa+Cotacachi+Imbabura+Ecuador" target="_blank" rel="noopener" data-i18n="link.map">Ver en el mapa</a>
+        </article>
+        <article class="frame">
+          <h3 data-i18n="event.recLabel">Recepción</h3>
+          <p class="venue">Rancho San Fernando</p>
+          <p data-i18n="event.recAddr">Calle Pichincha, Atuntaqui, Imbabura</p>
+          <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=Rancho+San+Fernando+Atuntaqui+Imbabura+Ecuador" target="_blank" rel="noopener" data-i18n="link.map">Ver en el mapa</a>
+        </article>
+      </div>
+      <div class="actions">
+        <a class="btn ghost" href="#rsvp" data-i18n="event.rsvp">Confirmar asistencia</a>
+      </div>
+    </section>
+
+    <section class="section" id="rsvp">
+      <h2 data-i18n="rsvp.title">Confirma tu asistencia</h2>
+      <div class="rule" aria-hidden="true"></div>
+      <p data-i18n="rsvp.intro">Cuéntanos si nos acompañas llenando este formulario.</p>
+      <div class="rsvp-frame">
+        <iframe id="rsvp-form-frame" title="RSVP" loading="lazy" hidden>Cargando / Loading…</iframe>
+      </div>
+      <p class="small" id="rsvp-open" hidden><a id="rsvp-link" href="#" target="_blank" rel="noopener" data-i18n="rsvp.open">¿No se ve el formulario? Ábrelo aquí.</a></p>
+      <p class="small" id="rsvp-pending" hidden data-i18n="rsvp.pending">El formulario de confirmación estará disponible muy pronto.</p>
+    </section>
+
+    <section class="section alt" id="hoteles">
+      <h2 data-i18n="hotels.title">Hoteles</h2>
+      <div class="rule" aria-hidden="true"></div>
+      <p class="small" data-i18n="hotels.note">Los precios son referenciales y pueden variar según la fecha.</p>
+      <div class="stack" id="hotels"></div>
+    </section>
+
+    <section class="section" id="turismo">
+      <h2 data-i18n="tour.title">Lugares turísticos</h2>
+      <div class="rule" aria-hidden="true"></div>
+      <p data-i18n="tour.intro">Imbabura es la provincia de los lagos y los volcanes. Estos lugares quedan cerca de la boda.</p>
+      <div class="cards pics" id="places"></div>
+    </section>
+
+    <section class="section alt" id="faq">
+      <h2 data-i18n="faq.title">Preguntas frecuentes</h2>
+      <div class="rule" aria-hidden="true"></div>
+      <div class="cards faq" id="faq-grid"></div>
+    </section>
+
+    <section class="section" id="restaurantes">
+      <h2 data-i18n="food.title">Restaurantes</h2>
+      <div class="rule" aria-hidden="true"></div>
+      <p data-i18n="food.intro">Sugerencias para probar comida ecuatoriana en Imbabura.</p>
+      <div class="cards pics" id="restaurants"></div>
+    </section>
+
+    <section class="section alt" id="regalos">
+      <h2 data-i18n="gifts.title">Mesa de regalos</h2>
+      <div class="rule" aria-hidden="true"></div>
+      <p class="thanks" data-i18n="gifts.thanks">Agradecemos su gentileza</p>
+      <div class="cards two gifts">
+        <article class="frame">
+          <h3 data-i18n="gifts.ec">Ecuador</h3>
+          <p><b>Banco Pichincha</b></p>
+          <p data-i18n="gifts.acct">Cuenta de Ahorro Transaccional</p>
+          <p><span data-i18n="gifts.num">Número</span>: <b>2215249920</b></p>
+          <button type="button" class="btn small" id="copy" data-i18n="gifts.copy">Copiar número</button>
+        </article>
+        <article class="frame">
+          <h3 data-i18n="gifts.us">EEUU / Internacional</h3>
+          <p data-i18n="gifts.scan">Scan this code in your bank's app to pay GLORIA at xxx-xxx-5121.</p>
+          <img src="qr-gloria.jpg" alt="QR Code" class="qr-code">
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p data-i18n="footer.text">Con cariño, Leyla y Pablo</p>
+  </footer>
+
+  <!-- ===== MÚSICA DE FONDO =====
+       1) Crea una carpeta "audio" junto a index.html y guarda ahí tu archivo .mp3
+       2) Cambia la ruta en src="..." del <audio> de abajo (ej. audio/mi-cancion.mp3)
+       3) Cambia el título dentro de <span id="music-title"> por el nombre de la melodía
+       La música inicia en pausa: solo suena cuando el invitado toca el botón. -->
+  <div class="music" id="music-player">
+    <button type="button" class="music-btn" id="music-toggle" aria-pressed="false" aria-label="Reproducir música">
+      <svg class="i-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+      <svg class="i-pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5h4v14H7zM13 5h4v14h-4z"/></svg>
+    </button>
+    <p class="music-text"><span id="music-label">Música:</span> <span id="music-title">Johann Pachelbel - Canon in D, Jacob's Piano</span></p>
+    <audio id="bg-music" src="audio/cancion.mp3" preload="none" loop></audio>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
