@@ -221,9 +221,19 @@ html { scroll-padding-top: 64px; }
 /* ===== Nuestra historia ===== */
 .story { max-width: 660px; margin: 0 auto; text-align: left; }
 .story p { margin-bottom: 1.3em; }
-.story-photos { display: flex; flex-wrap: wrap; justify-content: center; gap: 28px 24px; margin: 2.4rem 0; }
-.story-photos .photo { flex: 1 1 240px; max-width: 300px; margin: 0; }
-.story-photos.one .photo { flex-basis: 300px; max-width: 360px; }
-.photo .media { aspect-ratio: 4 / 3; outline: 1px solid var(--line); outline-offset: 6px; }
-.photo figcaption { margin-top: 16px; text-align: center; font: italic 1.02rem var(--serif); color: var(--muted); }
-.story .story-sign { margin: 2.4rem 0 0; text-align: center; white-space: pre-line; font: italic 1.5rem/1.5 var(--serif); }
+.section > .story-sign { margin: 3rem auto 0; text-align: center; font: italic clamp(1.8rem, 5vw, 2.4rem)/1.3 var(--serif); }
+
+/* ===== Carrete de fotos (marquee infinito) ===== */
+/* Ajustes rápidos: tamaño de cada foto y velocidad (más segundos = más lento) */
+.reel { --reel-w: 280px; --reel-h: 260px; --reel-speed: 50s; overflow: hidden; margin: 1.6rem -20px 0; }
+.reel-track { display: flex; width: max-content; background: #fff; animation: reel var(--reel-speed) linear infinite; will-change: transform; }
+.reel-group { display: flex; flex-shrink: 0; gap: 6px; padding-right: 6px; }
+.reel-item { flex: 0 0 auto; width: var(--reel-w); height: var(--reel-h); background: linear-gradient(135deg, rgba(212,169,158,.65), rgba(138,154,123,.65)); }
+.reel-item img { display: block; width: 100%; height: 100%; object-fit: cover; }
+@keyframes reel { to { transform: translateX(-50%); } }
+@media (max-width: 600px) { .reel { --reel-w: 210px; --reel-h: 200px; --reel-speed: 40s; } }
+@media (prefers-reduced-motion: reduce) {
+  .reel { overflow-x: auto; }
+  .reel-track { animation: none; }
+  .reel-group[aria-hidden="true"] { display: none; }
+}
