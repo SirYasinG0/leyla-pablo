@@ -16,8 +16,19 @@ const I18N = {
     "cd.days": "Días", "cd.hours": "Horas", "cd.mins": "Minutos", "cd.secs": "Segundos",
     "cd.done": "¡Hoy es el día!",
     "story.title": "Nuestra historia",
-    "story.p1": "Aquí va el primer párrafo de su historia: cómo se conocieron, dónde y qué los unió.",
-    "story.p2": "Aquí el segundo párrafo: el momento de la propuesta y lo que sueñan para esta nueva etapa.",
+    "story.p1": "Todo comenzó en Otavalo, Ecuador, en agosto de 2012, durante las fiestas de la ciudad. Fue entonces cuando Pablo vio a Leyla por primera vez. Para él, fue amor a primera vista. Tan seguro estaba de lo que había sentido que, sin siquiera conocerla, le dijo a su amiga: «Me voy a casar con ella».",
+    "story.p2": "Leyla, sin embargo, no lo vio aquel día y mucho menos imaginaba que alguien acababa de pronunciar esas palabras sobre ella.",
+    "story.p3": "Unas semanas después, también en Otavalo, Leyla vio a Pablo por primera vez. Ese día finalmente se conocieron y tuvieron su primera conversación. Una semana después comenzaron su noviazgo, sin imaginar que aquel encuentro sería el inicio de una historia de amor que los acompañaría durante tantos años.",
+    "story.p4": "Crecieron juntos, compartieron sus años universitarios y construyeron una historia llena de recuerdos. Sin embargo, en 2019 llegó uno de sus mayores desafíos: despedirse para perseguir sus metas académicas y profesionales. Pablo continuaría su formación en aviación, mientras que Leyla emprendería sus estudios de posgrado en Estados Unidos.",
+    "story.p5": "A pesar de la distancia, decidieron seguir eligiéndose. Entre llamadas, visitas y esperados reencuentros en Ecuador, encontraron la manera de mantenerse unidos, siempre con la ilusión de que algún día las despedidas llegarían a su fin.",
+    "story.p6": "En 2021, Pablo pasó seis meses junto a Leyla en Massachusetts, mientras ella finalizaba su maestría. Fue un tiempo muy especial para ambos y, aunque tuvieron que despedirse una vez más, lo hicieron con la esperanza de que pronto podrían compartir su vida en un mismo lugar.",
+    "story.p7": "Ese mismo año, durante una visita de Leyla a Ecuador, Pablo le pidió matrimonio, dando un nuevo paso en la historia que habían comenzado a escribir juntos tantos años atrás.",
+    "story.p8": "El 28 de julio de 2023 contrajeron matrimonio civil en Yorktown, Nueva York, y desde entonces han tenido la alegría de construir un hogar juntos.",
+    "story.p9": "Sin embargo, había un sueño que todavía guardaban en sus corazones: celebrar su unión ante Dios, rodeados de sus familiares y seres queridos en Ecuador, el lugar donde comenzó toda su historia.",
+    "story.p10": "Hoy, después de tantos años, tantos kilómetros recorridos y tantos sueños compartidos, ese momento está por llegar.",
+    "story.p11": "Nos llena de felicidad poder celebrar nuestro amor junto a ustedes. Gracias por ser parte de nuestra historia y por acompañarnos en este capítulo tan especial de nuestras vidas.",
+    "story.sign": "Con mucho cariño,\nLeyla y Pablo",
+    "story.c1": "Cuando éramos novios", "story.c2": "Cuando estábamos en la universidad", "story.c3": "Reencuentros en la distancia", "story.c4": "Compromiso", "story.c5": "Matrimonio civil",
     "event.title": "Cuándo y dónde",
     "event.dateLabel": "Fecha", "event.date": "Sábado, 9 de enero de 2027",
     "event.timeLabel": "Hora", "event.time": "3:00 P.M. (15:00), hora de Ecuador",
@@ -56,8 +67,19 @@ const I18N = {
     "cd.days": "Days", "cd.hours": "Hours", "cd.mins": "Minutes", "cd.secs": "Seconds",
     "cd.done": "Today is the day!",
     "story.title": "Our story",
-    "story.p1": "The first paragraph of your story goes here: how you met, where, and what brought you together.",
-    "story.p2": "The second paragraph goes here: the proposal and what you dream of for this new chapter.",
+    "story.p1": "It all began in Otavalo, Ecuador, in August 2012, during the city’s festivities. That was when Pablo saw Leyla for the first time. For him, it was love at first sight. He was so sure of what he had felt that, without even knowing her, he told his friend: “I’m going to marry her.”",
+    "story.p2": "Leyla, however, did not see him that day, and she could hardly have imagined that someone had just spoken those words about her.",
+    "story.p3": "A few weeks later, also in Otavalo, Leyla saw Pablo for the first time. That day they finally met and had their first conversation. A week later they began dating, never imagining that this meeting would be the beginning of a love story that would stay with them for so many years.",
+    "story.p4": "They grew up together, shared their university years, and built a story full of memories. But in 2019, one of their greatest challenges arrived: saying goodbye in order to pursue their academic and professional goals. Pablo would continue his training in aviation, while Leyla would begin her graduate studies in the United States.",
+    "story.p5": "Despite the distance, they chose to keep choosing each other. Through phone calls, visits, and long-awaited reunions in Ecuador, they found a way to stay close, always hoping that one day the goodbyes would come to an end.",
+    "story.p6": "In 2021, Pablo spent six months with Leyla in Massachusetts while she completed her master’s degree. It was a very special time for both of them and, although they had to say goodbye once more, they did so hoping that soon they would be able to share their lives in the same place.",
+    "story.p7": "That same year, during Leyla’s visit to Ecuador, Pablo asked her to marry him, taking a new step in the story they had begun writing together so many years before.",
+    "story.p8": "On July 28, 2023, they were married in a civil ceremony in Yorktown, New York, and since then they have had the joy of building a home together.",
+    "story.p9": "Even so, there was a dream they still held in their hearts: to celebrate their union before God, surrounded by their family and loved ones in Ecuador, the place where their whole story began.",
+    "story.p10": "Today, after so many years, so many miles traveled, and so many shared dreams, that moment is about to arrive.",
+    "story.p11": "We are filled with happiness to celebrate our love with you. Thank you for being part of our story and for joining us in this very special chapter of our lives.",
+    "story.sign": "With much love,\nLeyla and Pablo",
+    "story.c1": "When we were dating", "story.c2": "During our university years", "story.c3": "Reunions across the distance", "story.c4": "Our engagement", "story.c5": "Our civil wedding",
     "event.title": "When & where",
     "event.dateLabel": "Date", "event.date": "Saturday, January 9, 2027",
     "event.timeLabel": "Time", "event.time": "3:00 PM (15:00), Ecuador time",
@@ -132,18 +154,16 @@ const FOOD = [
   { n: "Puerto Lago", loc: "Lago San Pablo", img: "img/puerto-lago.jpg",
     es: "Comida tradicional ecuatoriana de alta calidad con mesas frente al lago.",
     en: "High-quality traditional Ecuadorian food with tables facing the lake." },
-  { n: "Mi Otavalito", loc: "Otavalo", img: "img/mi-otavalito.jpg",
-    es: "Excelente sazón local, ideal para probar llapingachos o locro de papa.",
-    en: "Excellent local flavor, ideal for trying llapingachos (potato patties) or locro de papa (potato soup)." },
-  { n: "La Marquesa", loc: "Otavalo", img: "img/marquesa.jpg",
-    es: "Gastronomía ecuatoriana en un ambiente colonial y elegante.",
-    en: "Ecuadorian cuisine in an elegant colonial setting." }
+  { n: "Sabor Vasco", q: "Sabor Vazco Plaza", loc: "Otavalo", img: "img/sabor-vasco.jpg",
+    es: "Una buena opción para sentarse a comer en Otavalo después de recorrer el mercado y los alrededores.",
+    en: "A good place to sit down for a meal in Otavalo after exploring the market and the surrounding area." },
+  { n: "La Vaca Gorda", loc: "Cotacachi", img: "img/vaca-gorda.jpg",
+    es: "Parrilla muy querida en Cotacachi: hamburguesas, cortes de carne y porciones generosas, con buena carta de vinos para acompañar.",
+    en: "A beloved grill in Cotacachi: burgers, quality cuts of meat and generous portions, with a good wine list to match." }
 ];
 
 const ICONS = {
-  shield: '<path d="M12 3l7 3v5c0 5-3 8-7 10-4-2-7-5-7-10V6z"/>',
   mountain: '<path d="M3 19l6-10 4 6 2-3 6 7z"/>',
-  drop: '<path d="M12 3s6 6 6 10a6 6 0 0 1-12 0c0-4 6-10 6-10z"/>',
   chat: '<path d="M4 5h16v11H9l-5 4z"/>',
   thermo: '<path d="M10 14V5a2 2 0 0 1 4 0v9a4 4 0 1 1-4 0z"/>',
   plane: '<path d="M21 4L3 11l7 3 3 7z"/><path d="M10 14l11-10"/>',
@@ -151,15 +171,9 @@ const ICONS = {
 };
 
 const FAQ = [
-  { i: "shield",
-    es: ["¿Ecuador / Imbabura es seguro?", "Recomendamos estar atentos y cuidar las pertenencias como en cualquier lugar turístico."],
-    en: ["Is Ecuador / Imbabura safe?", "We recommend staying alert and keeping an eye on your belongings, as in any tourist destination."] },
   { i: "mountain",
     es: ["¿Cuál es la altura?", "Cotacachi se encuentra a 2,418 msnm y Atuntaqui a 2,400 msnm."],
     en: ["What is the altitude?", "Cotacachi is at 2,418 m (about 7,930 ft) above sea level and Atuntaqui at 2,400 m (about 7,870 ft)."] },
-  { i: "drop",
-    es: ["¿Cómo evito la enfermedad de altura?", "Hidrátate mucho y evita el alcohol las primeras 24 horas. Puedes tomar té de coca o aspirina. Si tienes dudas, consulta a tu médico antes de viajar."],
-    en: ["How do I avoid altitude sickness?", "Drink plenty of water and avoid alcohol for the first 24 hours. You can take coca tea or aspirin. If in doubt, check with your doctor before traveling."] },
   { i: "chat",
     es: ["Mensajería de texto", "Descarga WhatsApp: es gratuito y es la aplicación más utilizada en Ecuador."],
     en: ["Text messaging", "Download WhatsApp: it's free and the most widely used messaging app in Ecuador."] },
@@ -190,7 +204,7 @@ function hotelCard(h, city) {
 function picCard(x) {
   return `<article class="frame pic"><div class="media">${photo(x.img, x.n)}</div><div class="body">` +
     `<h3>${x.n}</h3><p class="loc">${x.loc}</p><p>${x[lang]}</p>` +
-    `<a class="link" href="${mapsUrl(x.n, x.loc)}" target="_blank" rel="noopener">${tr("link.map")}</a></div></article>`;
+    `<a class="link" href="${mapsUrl(x.q || x.n, x.loc)}" target="_blank" rel="noopener">${tr("link.map")}</a></div></article>`;
 }
 
 function renderLists() {
