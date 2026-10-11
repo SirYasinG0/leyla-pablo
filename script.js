@@ -11,6 +11,8 @@ const CONFIG = {
 const I18N = {
   es: {
     "hero.kicker": "Nos casamos",
+    "date.first": "09", "date.second": "01",   // día . mes
+    "meta.title": "Leyla & Pablo — 09.01.2027",
     "hero.place": "Cotacachi y Atuntaqui, Imbabura, Ecuador",
     "hero.intro": "Con gran alegría, los invitamos a celebrar este día tan especial con nosotros, rodeados de las personas que más amamos.",
     "cd.days": "Días", "cd.hours": "Horas", "cd.mins": "Minutos", "cd.secs": "Segundos",
@@ -61,6 +63,8 @@ const I18N = {
   },
   en: {
     "hero.kicker": "We are getting married",
+    "date.first": "01", "date.second": "09",   // mes . día
+    "meta.title": "Leyla & Pablo — 01.09.2027",
     "hero.place": "Cotacachi and Atuntaqui, Imbabura, Ecuador",
     "hero.intro": "With great joy, we invite you to celebrate this very special day with us, surrounded by the people we love most.",
     "cd.days": "Days", "cd.hours": "Hours", "cd.mins": "Minutes", "cd.secs": "Seconds",
@@ -285,10 +289,13 @@ function setLang(next) {
   if (!I18N[next]) next = "es";
   lang = next;
   document.documentElement.lang = next;
+  document.title = I18N[next]["meta.title"];
   document.querySelectorAll("[data-i18n]").forEach(el => {
     const text = I18N[next][el.dataset.i18n];
     if (text) el.textContent = text;
   });
+  const dateFrame = document.querySelector(".date-frame");
+  if (dateFrame) dateFrame.setAttribute("aria-label", [...dateFrame.querySelectorAll("span")].map(x => x.textContent).join(" . "));
   document.querySelectorAll(".lang button").forEach(btn => {
     btn.setAttribute("aria-pressed", String(btn.dataset.lang === next));
   });
